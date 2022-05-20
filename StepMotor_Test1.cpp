@@ -1,6 +1,6 @@
 /* Created by Daniel Rascón Carrillo 
-  
-    This code is made to control a step motor whit analog reads.
+  *
+  * This code is made to control a step motor whit analog reads.
 */
 #include <iostream>
 #include <Stepper.h>
