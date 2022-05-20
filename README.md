@@ -25,7 +25,7 @@ With this project we mainly intend to denote and at the same time polish our ski
 
 In the same way we intend to use this experience with the purpose of the accreditation of the class of Embedded Applications for the Internet of Things, taught by the teacher Alberto Pacheco.
 
-# Materials.
+# Materials and prices.
 
 |Material | Unit | Total price|
 | ------------- | ------------- |------------- |
@@ -43,10 +43,28 @@ The project consists of 3 microphones, connected to pins 34,32 and 35 of our ESP
 
 The analog signal that the microphones will produce will be of the utmost importance, since it will be transmitted to the motors as an instruction that tells them which edge to turn on, however, before being able to provide the signal, our motor must be able to work efficiently. , that is why it was decided that the use of the ULN2003A driver would be implemented, which allows a simpler control of our stepper motor, for this it is necessary to connect the IN1,2,3 and 4 pins of the aforementioned driver, in the pins 19,18,5 and 17 of our ESP32, without forgetting that our controller will also have to be connected to the universal 5-pin type 2510-5Y connector.
 
-> To_do 
-> ESP32-CAM prosess
+> To_do ESP32-CAM prosess
 
-# Circuit diagram
+# Circuit diagram.
 ![ESP32](https://user-images.githubusercontent.com/67432471/169591461-c6a0d4bb-fe99-4362-bda4-fb7bb692e070.png)
 
+# Connections.
+### ESP32
+- Mic 
+  - GND            ->  DRIVER-GND (Each one)
+  - VCC/VIN        ->  DRIVER-3.3V (Each one)
+  - RightMic_AI    ->  GPIO34
+  - LeftMic_AI     ->  GPIO32
+  - FronttMic_AI   ->  GPIO35
+- Driver ULN2003A
+  - STEP-MOTOR     -> DRIVER-INPUT
+  - DRIVER-IN1     -> GPIO19
+  - DRIVER-IN1     -> GPIO18
+  - DRIVER-IN1     -> GPIO5
+  - DRIVER-IN1     -> GPIO17
+- ESP32-CAM
+  - GND            ->  DRIVER-GND
+  - VCC/VIN        ->  DRIVER-5V
 
+# Circuit. 
+> To_do insert final imagen 
