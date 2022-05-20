@@ -1,5 +1,5 @@
 ///https://github.com/G6EJD/ESP32-8-Octave-Audio-Spectrum-Display/blob/master/ESP32_Spectrum_Display_03.ino
-
+//Alan Aceves : a325103@uach.mx <?>
 #include <iostream>
 #include "arduinoFFT.h" // Standard Arduino FFT library https://github.com/kosme/arduinoFFT
 
