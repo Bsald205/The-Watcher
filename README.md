@@ -1,5 +1,5 @@
 # The-Watcher
-We are some students from the Universidad Autonoma de Chihuahua and we'r pretending to crate an IoT project.
+*We are some students from the Universidad Autonoma de Chihuahua and we'r pretending to crate an IoT project.*
 
 This repository explains the construction of a device controlled by an ESP32 and ESP32-CAM, which uses KY-037 microphones and a stepping motor capable of reacting with movement through the sound produced in the environment.
 
