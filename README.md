@@ -3,5 +3,7 @@ This repository explains the construction of a device controlled by an ESP32 and
 
 # Creates by 
 Brnadon Saldivar 
+
 Alan Acevez 
+
 Daniel Razcon 
