@@ -1,7 +1,8 @@
 /*  Alan Aceves : a325103@uach.mx <?>
  *  Daniel Rascón Carrillo : a329625 @uach.mx <?>
+ *  Brandon Saldivar : bsaldivar205@gmail.com
  *   
- *  This code reads three analog signals and transforms its frequency to obtain the highest peak
+ *  
  *  
  *  Standard Arduino FFT library https://github.com/kosme/arduinoFFT
  */
