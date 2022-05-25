@@ -46,7 +46,8 @@ The analog signal that the microphones will produce will be of the utmost import
 > To_do ESP32-CAM prosess
 
 # Circuit diagram.
-![ESP32](https://user-images.githubusercontent.com/67432471/169591461-c6a0d4bb-fe99-4362-bda4-fb7bb692e070.png)
+![ESP32](https://user-images.githubusercontent.com/67432471/170351324-a596b985-019b-4528-8f56-dde1829b67d1.png)
+
 
 # Connections.
 ### ESP32
