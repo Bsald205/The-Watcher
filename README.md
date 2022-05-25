@@ -8,7 +8,7 @@ Brandon Saldivar: bsaldivar205@gmail.com
 
 Alan Acevez: a325103@uach.mx
 
-Daniel Razcon: a329625@uach.mx
+Daniel Rascon: a329625@uach.mx
 
 # Info 
 School: Universidad Autonoma de Chihuahua (UACH).
