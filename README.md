@@ -39,9 +39,12 @@ In the same way we intend to use this experience with the purpose of the accredi
 | Protoboard | x1 | $60.00 MXN |
 
 # Design description.
-The project consists of 3 microphones, connected to pins 34,32 and 35 of our ESP32, which correspond to the right, left and front position respectively, in which we will read the analog signal that they provide when capturing the sound (that is, important to emphasize that for this implementation the use of the digital signal is completely ruled out), in the same way they will be connected to the ground and 3.3v respectively each one, since they will be capturing sound at all times through analog signals as mentioned above, said signals they will be automatically filtered to only take into account peak moments relevant to the user, all through software implementation, that is why there is no other hardware device that performs this process.
+The project consists of 3 microphones, connected to pins 34,32 and 35 of our ESP32, which correspond to the right, left and front position respectively, in which we will read the analog signal that they provide when capturing the sound, we also filtrated this signal using mathematical calculations  using the fulier method  (that is, important to emphasize that for this implementation the use of the digital signal is completely ruled out), in the same way they will be connected to the ground and 3.3v respectively each one, since they will be capturing sound at all times through analog signals as mentioned above, said signals they will be automatically filtered to only take into account peak moments relevant to the user, all through software implementation, that is why there is no other hardware device that performs this process.
 
 The analog signal that the microphones will produce will be of the utmost importance, since it will be transmitted to the motors as an instruction that tells them which edge to turn on, however, before being able to provide the signal, our motor must be able to work efficiently. , that is why it was decided that the use of the ULN2003A driver would be implemented, which allows a simpler control of our stepper motor, for this it is necessary to connect the IN1,2,3 and 4 pins of the aforementioned driver, in the pins 19,18,5 and 17 of our ESP32, without forgetting that our controller will also have to be connected to the universal 5-pin type 2510-5Y connector.
+
+![Fourier_transform_time_and_frequency_domains_(small)](https://user-images.githubusercontent.com/67432471/170385025-44599dc4-c1c9-4563-8042-26851838416f.gif)
+
 
 > To_do ESP32-CAM prosess
 
