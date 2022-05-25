@@ -71,4 +71,5 @@ The analog signal that the microphones will produce will be of the utmost import
   - VCC/VIN        ->  DRIVER-5V
 
 # Circuit. 
-> To_do insert final imagen 
+![IMG_0588](https://user-images.githubusercontent.com/67432471/170386506-0b7ad983-edc7-4912-bfc5-20c4b4940fdb.jpeg)
+
