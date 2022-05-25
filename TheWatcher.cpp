@@ -1,11 +1,8 @@
-/*  Alan Aceves : a325103@uach.mx <?>
- *  Daniel Rascón Carrillo : a329625 @uach.mx <?>
- *  Brandon Saldivar : bsaldivar205@gmail.com
- *   
- *  
- *  
- *  Standard Arduino FFT library https://github.com/kosme/arduinoFFT
- */
+/*  
+    Alan Aceves      : a325103@uach.mx <?> alan.aceves.chavez@gmail.com 
+    Daniel Rascón    : a329625@uach.mx <?>
+    Brandon Saldivar : bsaldivar205@gmail.com <?>
+*/
 
 #include <iostream>
 #include <Stepper.h>
