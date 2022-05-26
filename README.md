@@ -43,10 +43,11 @@ The project consists of 3 microphones, connected to pins 34,32 and 35 of our ESP
 
 The analog signal that the microphones will produce will be of the utmost importance, since it will be transmitted to the motors as an instruction that tells them which edge to turn on, however, before being able to provide the signal, our motor must be able to work efficiently. , that is why it was decided that the use of the ULN2003A driver would be implemented, which allows a simpler control of our stepper motor, for this it is necessary to connect the IN1,2,3 and 4 pins of the aforementioned driver, in the pins 19,18,5 and 17 of our ESP32, without forgetting that our controller will also have to be connected to the universal 5-pin type 2510-5Y connector.
 
+Finally, our ESP32-CAM will be attached, which will be in charge of recording everything that happens in our environment, constantly transmitting via Wi-Fi.
+
 ![Fourier_transform_time_and_frequency_domains_(small)](https://user-images.githubusercontent.com/67432471/170385025-44599dc4-c1c9-4563-8042-26851838416f.gif)
+> Gif explaining the operation of the applied formula of fourier.
 
-
-> To_do ESP32-CAM prosess
 
 # Circuit diagram.
 ![ESP32](https://user-images.githubusercontent.com/67432471/170387686-19086537-903e-45f4-9d0f-346dabd817a4.png)
@@ -70,6 +71,10 @@ The analog signal that the microphones will produce will be of the utmost import
   - GND            ->  DRIVER-GND
   - VCC/VIN        ->  DRIVER-5V
 
-# Circuit. 
+# Final Product. 
 ![IMG_0588](https://user-images.githubusercontent.com/67432471/170386506-0b7ad983-edc7-4912-bfc5-20c4b4940fdb.jpeg)
+
+ > For more info you can see the complete documentation on spanish here.
+ > [The Watcher.pdf](https://github.com/Bsald205/The-Watcher/files/8775249/The.Watcher.pdf)
+
 
