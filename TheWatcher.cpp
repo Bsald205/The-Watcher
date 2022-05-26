@@ -57,7 +57,7 @@ void readMicrophones (){
     iFront[i] = 0 ;
   }
 }
-
+/// Motor function to move Front
 void mover_Norte() {
   cout << "Moviendo a Norte" << endl; //.3
   if (pos != 0){
@@ -72,7 +72,7 @@ void mover_Norte() {
     pos = 0;
   }
 }
-
+/// Motor function to move Front
 void mover_Este() {
   cout << "Moviendo a Este" << endl; //.3
   if (pos != -1){
@@ -87,7 +87,7 @@ void mover_Este() {
     pos = -1;
   }
 }
-
+/// Motor function to move Front
 void mover_Oeste() {
     cout << "Moviendo a Oeste" << endl; //.3
     if (pos != 1){
@@ -123,15 +123,15 @@ void loop() {
   for (i = 0 ; i < 512 ; i++){
     if ( vRight [i] > tolerance && i > 1 ){
       mover_Oeste();
-      cout << vRight[i] << " Right" << endl; //.3
+      //cout << vRight[i] << " Right" << endl; //.3
     }
     if ( vLeft  [i] > tolerance && i > 1 ){
       mover_Este();
-      cout << vLeft[i]  << " Left"  << endl; //.3
+     // cout << vLeft[i]  << " Left"  << endl; //.3
     }
     if ( vFront [i] > tolerance && i > 1 ){
       mover_Norte();
-      cout << vFront[i] << " Front" << endl; //.3
+      //cout << vFront[i] << " Front" << endl; //.3
     }
   }
 }
