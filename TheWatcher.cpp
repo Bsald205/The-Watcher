@@ -32,7 +32,7 @@ int pos = 0;
 Stepper myStepper(stepsPerRevolution, IN1, IN3, IN2, IN4);
 
 const int SAMPLE = 1024;   // Sampling period 128 bytes = 1024 bits
-const int tolerance= 2600; // 1500 to detect low noise :: 2600 to cancel low noise
+const int tolerance= 2000; // 1500 to detect low noise :: 2600 to cancel low noise
 
 //Real number
 double vRight [SAMPLE];        
