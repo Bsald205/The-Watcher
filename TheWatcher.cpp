@@ -72,7 +72,7 @@ void mover_Norte() {
     pos = 0;
   }
 }
-/// Motor function to move Front
+/// Motor function to move Left
 void mover_Este() {
   cout << "Moviendo a Este" << endl; //.3
   if (pos != -1){
@@ -87,7 +87,7 @@ void mover_Este() {
     pos = -1;
   }
 }
-/// Motor function to move Front
+/// Motor function to move Right
 void mover_Oeste() {
     cout << "Moviendo a Oeste" << endl; //.3
     if (pos != 1){
