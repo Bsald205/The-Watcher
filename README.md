@@ -75,8 +75,20 @@ Finally, our ESP32-CAM will be attached, which will be in charge of recording ev
 ![IMG_0588](https://user-images.githubusercontent.com/67432471/170386506-0b7ad983-edc7-4912-bfc5-20c4b4940fdb.jpeg)
 
  > For more info you can see the complete documentation on spanish here.
- > [The Watcher.pdf](https://github.com/Bsald205/The-Watcher/files/8775249/The.Watcher.pdf)
+ > [The Watcher.pdf](https://github.com/Bsald205/The-Watcher/files/8775367/The.Watcher.pdf)
 
-# Videos 
+# Videos in spanish.
+### Introducing our team.
+
+https://drive.google.com/file/d/1lF-v_al_fBh-djYajeq-IGsnwrbpZYfl/view?usp=sharing 
+
+### Explain of the project.
+
+https://drive.google.com/file/d/1mlPXOKg1WKHgzi9BxRGlKSpdt9J6q-4q/view?usp=sharing
+
+### Demostration of the project.
+
+https://drive.google.com/file/d/1QqpRHzIOj9fb4xF9yPdFiLqV51DCQA46/view?usp=sharing
+
 
 
